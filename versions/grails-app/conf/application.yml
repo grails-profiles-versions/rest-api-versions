@@ -24,8 +24,10 @@ spring:
     devtools:
         restart:
             additional-exclude: 
-                - '*.gsp'            
+                - '*.gsp'     
+                - '**/*.gsp'       
                 - '*.gson'
+                - '**/*.gson'
                 - 'logback.groovy'
                 - '*.properties'
 management:
